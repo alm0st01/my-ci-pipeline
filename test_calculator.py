@@ -25,7 +25,7 @@ def test_add():
 
 # TODO: write test_subtract()
 def test_subtract():
-    assert subtract(2,1) == 1
+    assert subtract(2,2) == 0
     assert subtract(11,2) == 9
     assert subtract(5,-3) == 8
     assert subtract(-1, -5) == 4
