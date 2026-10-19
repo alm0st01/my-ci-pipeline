@@ -18,7 +18,7 @@ on:
 
 jobs:
  test:                           # the job's name
-   runs-on: ubuntu_latest                 # BLANK 3: which runner environment?
+   runs-on: ubuntu-latest                 # BLANK 3: which runner environment?
 
 
    steps:                        # steps run top to bottom; if one fails, the rest are skipped
